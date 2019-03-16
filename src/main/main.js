@@ -1,4 +1,4 @@
-// 引入
+// 引入模板
 import React, {Component} from 'react';
 import {SearchBar, WingBlank, Carousel} from 'antd-mobile';
 import 'antd-mobile/dist/antd-mobile.css';
