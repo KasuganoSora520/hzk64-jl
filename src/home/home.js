@@ -1,7 +1,7 @@
 // 主页的路由
 import React, { Component } from 'react';
 import { TabBar, Icon, Grid } from 'antd-mobile';
-// import axios from '../http';
+import axios from '../http';
 import Chat from '../chat/chat';
 import Main from '../main/main';
 import Mine from '../mine/mine';
