@@ -2,7 +2,7 @@
 import React, {Component} from 'react';
 import {SearchBar, WingBlank, Carousel} from 'antd-mobile';
 import 'antd-mobile/dist/antd-mobile.css';
-import './main.css'
+import './main.css';
 
 // import axios from '../http';
 
