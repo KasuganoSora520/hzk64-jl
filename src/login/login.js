@@ -32,7 +32,7 @@ class Login extends Component {
             // 进入home
             // console.log(data);
             history.push('/');
-            const name = data;
+            // const name = data;
         } else {
             // 提示
             Toast.fail(meta.msg, 1)
