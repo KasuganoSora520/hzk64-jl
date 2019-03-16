@@ -1,4 +1,5 @@
 // 登录页面的路由
+
 import React, {Component} from 'react';
 import {NavBar, List, InputItem, WhiteSpace, Flex, Button, Toast, WingBlank} from 'antd-mobile';
 import 'antd-mobile/dist/antd-mobile.css'
@@ -31,7 +32,7 @@ class Login extends Component {
             // 进入home
             // console.log(data);
             history.push('/');
-            // const name = data;
+            const name = data;
         } else {
             // 提示
             Toast.fail(meta.msg, 1)
